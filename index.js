@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
+console.log('Usando GIT con comandos')
+
 app.set('view engine', 'ejs'); 
 
 const inicioRoute = require('./routes/inicioRoute');
