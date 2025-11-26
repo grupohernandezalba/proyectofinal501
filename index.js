@@ -15,7 +15,3 @@ app.use('/', inicioRoute);
 app.use('/productos', productosRoute);
 app.use('/contacto', contactoRoute);
 app.use('/servicios', serviciosRoute);
-
-app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
-});
